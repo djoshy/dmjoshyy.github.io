@@ -1,6 +1,6 @@
 ### [CAWA-GPGPUSim](https://github.com/dmjoshyy/gpgpusim-cacp) 
 
-This project, implemented in C++, showcases the [CAWA](https://pdfs.semanticscholar.org/0ca2/b92a4f992b35683c7fffcd49b4c883772a29.pdf)(Criticality Aware Warp Accelerator) scheme on GPGPU-Sim. In order to implement CAWA, an accurate criticality predictor was built. Using the determined criticality, warp scheduling and cache prioritizing was done. I primarily worked on cache partitoning, which meant ensuring that critical cache requests were treated to be of high priority. This was probably the biggest codebase I have worked on.
+This project, implemented in C++, showcases the [CAWA](https://pdfs.semanticscholar.org/0ca2/b92a4f992b35683c7fffcd49b4c883772a29.pdf)(Criticality Aware Warp Accelerator) scheme on GPGPU-Sim. In order to implement CAWA, an accurate criticality predictor was built. Using the determined criticality, warp scheduling and cache prioritizing was done. I primarily worked on cache partitoning, which meant ensuring that critical cache requests were treated to be of high priority. This was the biggest codebase I have worked on.
 
 Main files: [CACP.cc](https://github.com/dmjoshyy/gpgpusim-cacp/blob/master/src/gpgpu-sim/CACP.cc)
 ### [In-Memory File System](https://github.com/dmjoshyy/mydisk) 
