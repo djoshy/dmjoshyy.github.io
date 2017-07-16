@@ -7,15 +7,17 @@ Main files: [CACP.cc](https://github.com/dmjoshyy/gpgpusim-cacp/blob/master/src/
 
 This project, implemented in C++, involved constructing an in-memory file system using a FUSE interface. FUSE allows for custom callbacks for linux system calls, which are used to modify the in memory file system. The File System was stress tested using postmark. The file system supported regular linux commands like cd, mkdir, pwd, ls, rm, rmdir etc. Also supported saving/loading images of the file system. 
 
-Main files [helloFS.cpp](https://github.com/dmjoshyy/mydisk/blob/extra_try/helloFS.cpp) [structures.cpp](https://github.com/dmjoshyy/mydisk/blob/extra_try/structures.cpp)
+Main files: [helloFS.cpp](https://github.com/dmjoshyy/mydisk/blob/extra_try/helloFS.cpp), [structures.cpp](https://github.com/dmjoshyy/mydisk/blob/extra_try/structures.cpp)
 ### [Thread Library](https://github.com/dmjoshyy/mythread)
 
 This project, implemented in C, involved designing a thread library. The library supports basic thread functions such as Join, JoinAll, Yield and Semaphores. Thread switching was done through the inbuilt uncontext.h library.
-
+Main files: [libtest.c](https://github.com/dmjoshyy/mythread/blob/master/libtest.c)
 
 ### [Microshell](https://github.com/dmjoshyy/ush)
 
 This project, implemented in C, involved designing a simple shell that supported basic linux commands like cd, pwd, echo, logout and so on. Allows for redirecting output and input as well as piping multiple commands together. Also supported a .rc configuration file and kill signals.
+
+Main files: [mycode.c](https://github.com/dmjoshyy/ush/blob/submit/mycode.c)
 
 
 ### [Cernal](https://github.com/dmjoshyy/cernal)
