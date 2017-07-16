@@ -24,7 +24,7 @@ This project, implemented in C, involved designing a simple shell that supported
 [Repo](https://github.com/dmjoshyy/ush).
 
 ### Cernal
-Simple Android App that scrubs CERN's RSS feed and generates a news feed. Fairly basic, but I learned to read
+Simple Android App that scrubs CERN's RSS feed and generates a news feed. Fairly basic, but this is the first project where I learned to use APIs, parse XML. 
 
 ### Attenda
 
