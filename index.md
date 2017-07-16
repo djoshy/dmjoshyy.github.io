@@ -1,10 +1,10 @@
-### CAWA(Criticality Aware Warp Accelerator) GPGPUSim
+### CAWA-GPGPUSim
 
-You can use the [editor on GitHub](https://github.com/dmjoshyy/dmjoshyy.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This project, implemented in C++, showcases the CAWA(Criticality Aware Warp Accelerator) scheme
+on GPGPU-Sim. In order to implement CAWA, an accurate criticality predictor was built. Using the
+determined criticality, warp scheduling and cache prioritizing was done.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[Repo](https://github.com/dmjoshyy/gpgpusim-cacp).
 
 ### In-Memory File System
 
