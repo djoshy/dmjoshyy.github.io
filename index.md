@@ -5,7 +5,7 @@ This project, implemented in C++, showcases the [CAWA](https://pdfs.semanticscho
 Main files: [CACP.cc](https://github.com/dmjoshyy/gpgpusim-cacp/blob/master/src/gpgpu-sim/CACP.cc)
 ### [In-Memory File System](https://github.com/dmjoshyy/mydisk) 
 
-This project, implemented in C++, involved constructing an in-memory file system using a FUSE interface. FUSE allows for custom callbacks for linux system calls, which are used to modify the in memory file system. The File System was stress tested using postmark. The file system supported regular linux commands like cd, mkdir, pwd, ls, rm, rmdir etc. Also supported saving/loading images of the file system. 
+This project, implemented in C++, involved constructing an in-memory file system using a FUSE interface. FUSE allows for custom callbacks for linux system calls, which are used to modify the in memory file system. The file system was stress tested using Postmark. It supported regular linux commands like cd, mkdir, pwd, ls, rm, rmdir etc. Also supported saving/loading images. 
 
 Main files: [helloFS.cpp](https://github.com/dmjoshyy/mydisk/blob/extra_try/helloFS.cpp), [structures.cpp](https://github.com/dmjoshyy/mydisk/blob/extra_try/structures.cpp)
 ### [Thread Library](https://github.com/dmjoshyy/mythread)
